@@ -2,6 +2,8 @@
 
 ## Backpropagation
 
+![Image](./images/image_notes.png)
+
 Backpropagation is the process where the weights in a neural network are updated after a complete forward pass. A forward pass of a neural network computes the loss and the network updates the weights based on the loss.
 
 ### Given neural network
