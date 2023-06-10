@@ -9,6 +9,8 @@ Achieve 99.4% accuracy with lesser than 20000 parameters and 20 epochs
 Highest accuracy: 99.49
 No: of parameters: 18,914
 
+![Result](./images/11%20epoch.png)
+
 ## Model highlights
 
  - Model has 3 conv blocks, 2 transition blocks and 1 output block
