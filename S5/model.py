@@ -24,4 +24,4 @@ class Net(nn.Module):
         return F.log_softmax(x, dim=1)
 
     def summary(self, input_size=None):
-        return torchsummary.summary(self, input_size=input_size, col_names=["input_size", "output_size", "num_params", "params_percent"])
+        return torchsummary.summary(self, input_size=input_size)
