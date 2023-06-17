@@ -149,7 +149,7 @@ class Model3(Base):
 
 class Model4(Base):
     def __init__(self):
-        DROP = 0.01
+        DROP = 0.05
         super(Model4, self).__init__()
         self.conv1 = nn.Sequential(
             nn.Conv2d(1, 9, 3, padding=1, bias=False),
@@ -174,6 +174,7 @@ class Model4(Base):
 
         self.conv3 = nn.Sequential(
             nn.BatchNorm2d(16),
+            nn.Conv2d(16, 16, 3, padding=1, bias=False),
             nn.Conv2d(16, 16, 3, padding=1, bias=False),
             nn.Dropout(DROP),
             nn.ReLU(),
